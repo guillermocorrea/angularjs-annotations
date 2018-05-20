@@ -1,4 +1,6 @@
 # angularjs-annotations
+[![CircleCI](https://circleci.com/gh/guillermocorrea/angularjs-annotations.svg?style=svg)](https://circleci.com/gh/guillermocorrea/angularjs-annotations)
+
 Angularjs Typescript annotations to mimic Angular syntax.
 
 ## Installation 
