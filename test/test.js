@@ -4,12 +4,17 @@ var expect = require('chai').expect;
 var index = require('../dist/index.js');
 
 describe('annotations', () => {
-    it('should return a function', () => {
+    it('should set component options', () => {
         var controller = null, template = 'template';
-        var result = index.Component({
+        var options = {
             controller: controller,
             template: template
-        });
-        expect(result).to.be.a('function');
+        };
+        var appController = function () {};
+        var resultDecorator = index.Component(options);
+        var resultConstructor = resultDecorator(appController);
+        resultConstructor.call(appController);
+        expect(appController.controller).to.be.equal(options.controller);
+        expect(appController.template).to.be.equal(options.template);
     });
 });

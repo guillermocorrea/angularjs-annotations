@@ -1,5 +1,6 @@
 # angularjs-annotations
 [![CircleCI](https://circleci.com/gh/guillermocorrea/angularjs-annotations.svg?style=svg)](https://circleci.com/gh/guillermocorrea/angularjs-annotations)
+[![Coverage Status](https://coveralls.io/repos/github/guillermocorrea/angularjs-annotations/badge.svg)](https://coveralls.io/github/guillermocorrea/angularjs-annotations)
 
 Angularjs Typescript annotations to mimic Angular syntax.
 
