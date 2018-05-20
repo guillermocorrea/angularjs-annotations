@@ -1,6 +1,6 @@
 {
   "name": "angularjs-annotations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angularjs Typescript annotations to mimic Angular syntax",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,6 @@
     "test": "mocha --reporter spec",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec",
     "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
-
   },
   "repository": {
     "type": "git",
