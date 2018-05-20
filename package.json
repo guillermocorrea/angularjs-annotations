@@ -1,0 +1,35 @@
+{
+  "name": "angularjs-annotations",
+  "version": "1.0.0",
+  "description": "Angularjs Typescript annotations to mimic Angular syntax",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillermocorrea/angularjs-annotations.git"
+  },
+  "keywords": [
+    "angularjs",
+    "typescript",
+    "annotations"
+  ],
+  "author": "Guillermo Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillermocorrea/angularjs-annotations/issues"
+  },
+  "homepage": "https://github.com/guillermocorrea/angularjs-annotations#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "@types/angular": "^1.6.6",
+    "@types/es6-shim": "^0.31.37"
+  }
+}
