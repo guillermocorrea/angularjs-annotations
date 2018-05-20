@@ -1,6 +1,6 @@
 {
   "name": "angularjs-annotations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angularjs Typescript annotations to mimic Angular syntax",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
